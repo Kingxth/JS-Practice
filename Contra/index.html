@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador - Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Codi-Descod</h1>
+    
+    <label for="inputData">Input (Payload):</label>
+    <textarea id="inputData" placeholder="Introduce el payload"></textarea>
+
+    <div class="controls">
+        <select id="recipe">
+            <option value="base64">From Base64 (Decodificar)</option>
+            <option value="hex">From Hex (Decodificar)</option>
+            <option value="url">URL Decode (Decodificar)</option>
+            <option value="base64encode">To Base64 (Codificar)</option>
+            <option value="hexencode">To Hex (Codificar)</option>
+            <option value="urlencode">URL Encode (Codificar)</option>
+        </select>
+        <button id="bakeBtn">Revisar</button>
+    </div>
+
+    <label for="outputData">Output (Resultado):</label>
+    <textarea id="outputData" readonly placeholder="Aqui esta el resultado.."></textarea>
+</div>
+
+<script src="chef.js"></script>
+</body>
+</html>
