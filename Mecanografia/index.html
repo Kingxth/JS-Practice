@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mecanografia - Práctica</title>
+</head>
+<body>
+
+    <div id="wrapper">
+        <aside id="aside">
+            <h2>Mecanografia</h2>
+            
+            <div class="boxes">
+                <h3>Text</h3>
+                <textarea id="copy" placeholder="Copy your text here"></textarea>
+            </div>
+
+            <div class="boxes">
+                <h3>Select File</h3>
+                <label for="file" class="file-label">.txt </label>
+                <input type="file" id="file" accept=".txt">
+            </div>
+
+            <div class="boxes">
+                <h3>Last Game:</h3>
+                <p id="lastgame"> Nn</p>
+            </div>
+        </aside>
+
+        <main id="writing">
+            <div id="stats">
+                <div class="stat-box">
+                    <span class="stat-label">Precision</span>
+                    <span id="accuracy-val" class="nano">100%</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Velocidad</span>
+                    <span id="speed-val" class="nano">0 PPM</span>
+                </div>
+            </div>
+
+            <div id="text-box">
+                <p class="placeholdertextbox">Select your file or copy something...</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
