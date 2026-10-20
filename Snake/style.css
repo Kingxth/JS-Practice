@@ -1,0 +1,51 @@
+body {
+  background: radial-gradient(circle, #020224, #100d1b);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+#menu {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(88, 13, 13, 0.1);
+}
+
+label {
+  font-size: 6px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #a34d4d;
+}
+
+select {
+  background: #9c7a7ae7;
+  color: #fff;
+  border: 1px solid #523d3d;
+  padding: 6px 4px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+canvas {
+  border-radius: 12px;
+  background: #252323;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(46, 45, 45, 0.1);
+}
